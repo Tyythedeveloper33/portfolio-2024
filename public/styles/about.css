@@ -11,7 +11,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
-    background-image: url('./images/abstract-grey-red-background-shaded-striped-pattern-blocks-diagonal-lines-vintage-texture-many-uses-advertising-139983468.webp'); /* Add your pattern image */
+    background-image: url('../images/abstract-grey-red-background-shaded-striped-pattern-blocks-diagonal-lines-vintage-texture-many-uses-advertising-139983468.webp'); /* Add your pattern image */
     background-size: cover;
     background-attachment: fixed;
 }
@@ -245,12 +245,18 @@ footer {
     bottom: 0;
     width: 100%;
     animation: fadeInUp 1s ease-out;
-    height: 300px;
+    height: 500px;
     opacity: 0.95;
+    display: flexbox;
+    align-content: center;
+
 }
 
 footer p {
     margin: 0;
+    font-size: 22px;
+    font-weight: bolder;
+
 }
 
 /* Keyframes for animations */
